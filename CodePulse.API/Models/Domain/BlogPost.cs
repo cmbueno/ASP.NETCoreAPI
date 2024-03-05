@@ -1,5 +1,10 @@
 ﻿namespace CodePulse.API.Models.Domain
 {
+    // This Model will interact with the database directly
+    // includes the fields found in the
+    // Database: CodePulseDb 
+    // Table:   dbo.BlogPosts
+
     public class BlogPost
     {
         public Guid Id { get; set; }
